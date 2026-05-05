@@ -155,38 +155,38 @@
 
 ## 15. Hired in last 2 years
 
-[Unverified] Depends on current system date (CURDATE())
+There are no results to be displayed.
 
 ---
 
 ## 16. Total salary
 
-| SUM(salary) |
-|-------------|
+| total_salary |
+|--------------|
 | 576000.00 |
 
 ---
 
 ## 17. Average salary
 
-| AVG(salary) |
-|-------------|
+| avg_salary |
+|------------|
 | 57600.00 |
 
 ---
 
 ## 18. Minimum salary
 
-| MIN(salary) |
-|-------------|
+| min_salary |
+|------------|
 | 45000.00 |
 
 ---
 
 ## 19. Employees per department
 
-| department_id | COUNT(*) |
-|---------------|----------|
+| department_id | employee_count |
+|---------------|----------------|
 | 1 | 3 |
 | 2 | 2 |
 | 3 | 2 |
@@ -197,8 +197,8 @@
 
 ## 20. Avg salary per department
 
-| department_id | AVG(salary) |
-|---------------|-------------|
+| department_id | avg_salary |
+|---------------|------------|
 | 1 | 65000.00 |
 | 2 | 55000.00 |
 | 3 | 50000.00 |
@@ -209,8 +209,8 @@
 
 ## 21. Total salary per department
 
-| department_id | SUM(salary) |
-|---------------|-------------|
+| department_id | total_salary |
+|---------------|--------------|
 | 1 | 195000.00 |
 | 2 | 110000.00 |
 | 3 | 100000.00 |
@@ -221,8 +221,8 @@
 
 ## 22. Avg age per department
 
-| department_id | AVG(age) |
-|---------------|----------|
+| department_id | avg_age |
+|---------------|---------|
 | 1 | 33.33 |
 | 2 | 31.50 |
 | 3 | 32.50 |
@@ -233,8 +233,8 @@
 
 ## 23. Employees per year
 
-| YEAR(hire_date) | COUNT(*) |
-|-----------------|----------|
+| year | employee_count |
+|------|----------------|
 | 2018 | 2 |
 | 2019 | 2 |
 | 2020 | 2 |
@@ -245,8 +245,8 @@
 
 ## 24. Max salary per department
 
-| department_id | MAX(salary) |
-|---------------|-------------|
+| department_id | max_salary |
+|---------------|------------|
 | 1 | 80000.00 |
 | 2 | 60000.00 |
 | 3 | 55000.00 |
@@ -282,8 +282,8 @@
 
 ## 28. Years with more than 1 employee
 
-| YEAR(hire_date) |
-|-----------------|
+| year |
+|------|
 | 2018 |
 | 2019 |
 | 2020 |
