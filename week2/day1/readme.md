@@ -168,4 +168,4 @@ This helped understand function chaining in SQL.
 
 ## 🚀 Conclusion
 
-Day 7 strengthened SQL string manipulation skills, which are essential for practical data cleaning, transformation pipelines, reporting, and real-world Data Engineering workflows.
+Day 1 strengthened SQL string manipulation skills, which are essential for practical data cleaning, transformation pipelines, reporting, and real-world Data Engineering workflows.
